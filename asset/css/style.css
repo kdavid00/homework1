@@ -1,0 +1,29 @@
+#name{
+    background-color: #4aaaa5;
+
+}
+
+#name > h1 {
+    display: inline-block;
+}
+
+.nav {
+    float: right;
+}
+
+.nav > li {
+    display: inline-block;
+}
+
+#bio-image{
+    width: 20%;
+    height: 50px;
+    margin-bottom: 40px;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+    overflow: auto;
+}
