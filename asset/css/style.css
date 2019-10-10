@@ -17,8 +17,10 @@
 
 #bio-image{
     width: 20%;
-    height: 50px;
-    margin-bottom: 40px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+
 }
 
 .clearfix::after {
@@ -27,3 +29,45 @@
     clear: both;
     overflow: auto;
 }
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-block-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#img src:{
+    width: 20%;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+
+}
+#footer{
+    color: #666666;
+}
+
+.work {
+    position: relative;
+    width: 280px;
+    margin: 20px 0;
+    overflow: auto;
+  }
+
+  .work img {
+    width: 100%;
+  }
+
+  .work h3 {
+    background-color: aquamarine;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+
